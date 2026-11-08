@@ -1,0 +1,14 @@
+{
+  "name": "duration-iso-core",
+  "version": "0.1.0",
+  "description": "ISO 8601 durations over unambiguous units (weeks/days/time) with explicit calendar-ambiguity rejection. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/duration.test.js",
+    "demo": "node bin/duration.mjs --assert"
+  }
+}
